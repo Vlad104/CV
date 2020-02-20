@@ -1,105 +1,10 @@
-@font-face {
-    font-family: 'Proxima Nova Light';
-    src: url('ProximaNova-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-html {
-    font-family: 'Proxima Nova Light';
-    font-size: 18px;
-}
-
-body {
-    height:297mm;
-    width:210mm;
+.iframe {
+    display: block;
+    height: 297mm;
+    width: 210mm;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #1a237e;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-
-    width: 100%;
-    height: 100%;
-}
-
-.main {
-    display: flex;
-    flex-direction: row;
-    flex: 1 0 auto;
-
-    width: 100%;
-    height: auto;
-
-    /* border: 1px solid #0F0; */
-}
-
-.projects {
-    width: 60%;
-    height: 100%;
-    padding: 16px;
-
-    /* border: 1px solid #FF0; */
-}
-
-.side {
-    width: 40%;
-    height: 100%;
-    padding: 16px;
-
-    /* border: 1px solid #FF0; */
-}
-
-.about {
-
-}
-
-.about__text {
-    font-size: 0.85rem;
-}
-
-.skills {
-
-}
-
-.footer {
-    width: 100%;
-    height: 0%;
-
-    /* border: 1px solid #00F; */
-}
-
-.information {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 6px;
-}
-
-.information__text {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.icon {
-    width: 1rem;
-    height: 1rem;
-}
-
-.svg-inline_title {
-    fill: #FFF;
-}
-
-.icon_download {
-    position: absolute;
-    z-index: 10;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .pdf-button {
@@ -121,4 +26,14 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     width: 38px;
     height: 38px;
+}
+
+.download-icon {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
